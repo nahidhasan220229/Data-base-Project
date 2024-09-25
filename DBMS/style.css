@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Fallback color */
+    background-image: url('hera.jpg'); /* Path to your background image */
+    background-size: cover; /* Make the image cover the entire viewport */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0; /* Remove default margin */
+    padding: 10px;
+}
+
+.container {
+    background: rgb(255,255,255,.5);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(19, 4, 4, 0.1);
+}
+
+h2 {
+    margin: 0 0 15px;
+}
+
+input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button {
+    width: 109%;
+    padding: 12px;
+    background-color: #18a118;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
